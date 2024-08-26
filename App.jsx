@@ -1,4 +1,4 @@
-import { AboutMe } from "./components/AboutMe";
+import { Skills } from "./components/Skills";
 import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
@@ -7,11 +7,10 @@ import { Projects } from "./components/Projects";
 const App = () => {
   return (
     <>
-      <div className="h-full bg-slate-800"></div>
       <Navbar />
       <Home />
+      <Skills />
       <Projects />
-      <AboutMe />
       <Footer />
     </>
   );
