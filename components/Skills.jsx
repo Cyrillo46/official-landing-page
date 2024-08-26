@@ -8,7 +8,7 @@ export const Skills = () => {
       <SectionTitle text="tech stack" />
       <div className="py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {skillSet.map((skill) => {
-          return <SkillCard key={skill.id} {...skill} />;
+          return <SkillCard bg="bg-slate-500" key={skill.id} {...skill} />;
         })}
       </div>
     </section>

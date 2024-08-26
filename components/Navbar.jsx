@@ -9,28 +9,28 @@ export const Navbar = () => {
         <ul className="flex tracking-wide">
           <li>
             <a
-              href=""
+              href="#home"
               className="px-1 mx-1 text-blue-100 capitalize text-lg hover:text-pink-400 duration-500">
               Home
             </a>
           </li>
           <li>
             <a
-              href=""
+              href="#aboutme"
               className="px-1 mx-1 text-blue-100 capitalize text-lg hover:text-pink-400 duration-500">
               About Me
             </a>
           </li>
           <li>
             <a
-              href=""
+              href="#projects"
               className="px-1 mx-1 text-blue-100 capitalize text-lg hover:text-pink-400 duration-500">
               Projects
             </a>
           </li>
           <li>
             <a
-              href=""
+              href="#links"
               className="px-1 mx-1 text-blue-100 capitalize text-lg hover:text-pink-400 duration-500">
               Links
             </a>
