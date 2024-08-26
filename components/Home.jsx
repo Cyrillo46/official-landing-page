@@ -18,10 +18,12 @@ export const Home = () => {
           </p>
           <br />
           <div className="flex">
-            <a href="">
+            <a href="https://github.com/Cyrillo46" target="_blank">
               <FaGithubSquare className="h-10 w-10 mx-2 text-blue-100 hover:text-pink-400 duration-700" />
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/anthonycyrillo/"
+              target="_blank">
               <FaLinkedin className="h-10 w-10 mx-2 text-blue-100 hover:text-pink-400 duration-700" />
             </a>
           </div>
