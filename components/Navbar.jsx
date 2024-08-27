@@ -16,9 +16,9 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="#aboutme"
+              href="#skills"
               className="px-1 mx-1 text-blue-100 capitalize text-lg hover:text-pink-400 duration-500">
-              About Me
+              Skills
             </a>
           </li>
           <li>
@@ -30,9 +30,9 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="#links"
+              href="#contact"
               className="px-1 mx-1 text-blue-100 capitalize text-lg hover:text-pink-400 duration-500">
-              Links
+              Contact Me
             </a>
           </li>
         </ul>

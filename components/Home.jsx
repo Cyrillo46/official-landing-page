@@ -5,7 +5,7 @@ import HomeImg from "../assets/HomeImg.svg";
 export const Home = () => {
   return (
     <>
-      <main className="bg-slate-700 text-center h-1/5 flex">
+      <main className="bg-slate-700 text-center h-1/5 flex" id="home">
         <div className="w-1/2 px-4 flex flex-col items-center gap-1 mt-12">
           <h1 className="text-7xl font-bold text-blue-100">welcome</h1>
           <br />
