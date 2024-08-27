@@ -17,5 +17,4 @@ const App = () => {
 };
 
 export default App;
-// import nanoid/react-icons
 // images from https://undraw.co

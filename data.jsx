@@ -1,4 +1,7 @@
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import Stacy from "./assets/Stacy.svg";
+import Review from "./assets/Review.svg";
+import Tour from "./assets/Tour.svg";
 
 export const skillSet = [
   {
@@ -24,7 +27,7 @@ export const skillSet = [
 export const projects = [
   {
     id: 1,
-    img: "/src/assets/StacyD.png",
+    img: Stacy,
     url: "https://stacysdash.netlify.app/",
     github: "https://github.com/Cyrillo46/Stacy-s-Dash",
     title: "Stacy's Dash",
@@ -32,7 +35,7 @@ export const projects = [
   },
   {
     id: 2,
-    img: "/src/assets/Tour.png",
+    img: Tour,
     url: "https://five-tours.netlify.app/",
     github: "https://github.com/Cyrillo46/tours",
     title: "Five Tours",
@@ -40,7 +43,7 @@ export const projects = [
   },
   {
     id: 3,
-    img: "/src/assets/Review.png",
+    img: Review,
     url: "https://four-reviews.netlify.app/",
     github: "https://github.com/Cyrillo46/four-reviews",
     title: "Four Reviews",

@@ -1,4 +1,4 @@
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 
 export const ProjectCard = ({ img, url, github, title, text }) => {
@@ -7,7 +7,7 @@ export const ProjectCard = ({ img, url, github, title, text }) => {
       <img
         src={img}
         alt={title}
-        className="w-full object-cover rounded-t-lg h-64"
+        className="w-full object-cover rounded-t-lg h-96"
       />
       <div className="capitalize p-8">
         <h2 className=" text-blue-200 text-xl tracking-wide font-medium">
