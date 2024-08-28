@@ -1,4 +1,3 @@
-# Landing-Page
 # Landing Page
 
 [Live Demo](https://aburkelandingpage.netlify.app/)
